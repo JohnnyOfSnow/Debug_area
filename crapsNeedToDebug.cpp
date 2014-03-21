@@ -1,4 +1,4 @@
-.// Fig. 5.14: fig05_14.c
+// Fig. 5.14: fig05_14.c
 // Simulating the game of craps.
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,6 +28,8 @@ int main( void )
    int myStatus = compareDiceNumber(sum);
    // determine game status based on sum of dice
    getresult(myStatus);
+   system("pause");
+   return 0;
    
 }
    
